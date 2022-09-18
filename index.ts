@@ -1,3 +1,4 @@
+import { red } from 'colors';
 import fs from 'fs';
 import { fib } from './fib';
 
@@ -17,5 +18,5 @@ import { fib } from './fib';
 //     }
 // } )
 
-console.log(fib(5))
-
+console.log(fib(10))
+console.log("hello world")
