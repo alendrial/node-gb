@@ -1,6 +1,8 @@
 import { red } from 'colors';
 import fs from 'fs';
 import { fib } from './fib';
+import { appPrimeNums } from './hw_lesson_1/primenumsApp/primeNums'
+import { appTimer } from './hw_lesson_1/timerApp/timer';
 
 // const file = fs.readFileSync('index.html',
 // encoding = 'utf8')n
@@ -20,3 +22,7 @@ import { fib } from './fib';
 
 console.log(fib(10))
 console.log("hello world")
+// appPrimeNums()
+// appTimer()
+
+
